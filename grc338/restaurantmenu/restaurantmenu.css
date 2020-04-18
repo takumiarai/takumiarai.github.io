@@ -1,0 +1,27 @@
+h1 {
+	font-family: 'Kaushan Script', cursive;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	margin: 5%;
+}
