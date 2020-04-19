@@ -3,6 +3,7 @@ body {
     width: 100%;
 	background-color: #eaeaea;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.0;
 }
 
 #bigbox {
@@ -30,7 +31,22 @@ body {
     padding: 2%;
 }
 
-h1 { color: black; }
+h1 { 
+	color: black; 
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 0.7;
+}
+
+h2 {
+	font-weight: 600;
+	line-height: 0.7;
+}
+
+h4 {
+	font-size: 36px;
+	line-height: 0;
+}
 
 a {
 	color: darkblue; 
@@ -39,9 +55,10 @@ a {
 
 a:hover {color: red;}
 
-ul.square { 
-	list-style: square;
-	margin: 0; 
+ul.none { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 li a {
