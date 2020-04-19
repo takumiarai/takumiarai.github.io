@@ -1,0 +1,52 @@
+body {
+    height: 100%;
+    width: 100%;
+	background-color: #eaeaea;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bigbox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#leftbox {
+    float: left;
+    width: 45%;
+    height: 1080px;
+    padding: 0%;
+    background-image: url("camping_sunrays.jpg");
+    background-repeat: repeat;
+    background-position: left bottom;
+    backgrounnd-size: 100% 100%;
+    }
+
+#rightbox {
+    float: right;
+    text-align: left;
+    width: 45%;
+    height: 100%;
+    padding: 2%;
+}
+
+h1 { color: black; }
+
+a {
+	color: darkblue; 
+	text-decoration: none;
+}
+
+a:hover {color: red;}
+
+ul.square { 
+	list-style: square;
+	margin: 0; 
+}
+
+li a {
+	display: block;
+}
+
+
+
