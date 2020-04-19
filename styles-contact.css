@@ -4,7 +4,7 @@
  */
 
 .my_name {
-	font-family: poynter-gothic-text, sans-serif;
+ 	font-family: poynter-oldstyle-display, serif;
 	font-size: 48px;
 	font-weight: 400;
 	padding-bottom: 0;
@@ -58,18 +58,17 @@ body {
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-size: 36px;
-    color: lightgray;
+   	color: #f1c40f;
     text-align: center;
     margin: 10px;
     line-height: 1;
-   	color: #f1c40f;
 }
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-size: 24px;
     line-height: 1.4;
-    color: lightgray;
+   	color: #f1c40f;
     text-align: left;
     margin: 10px;
 }
