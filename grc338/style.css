@@ -14,40 +14,40 @@ body {
 }
 
 #leftbox {
-    float: left;
-    width: 45%;
-    height: 1080px;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 100%;
     padding: 0%;
-    background-image: url("camping_sunrays.jpg");
-    background-repeat: repeat;
-    background-position: left bottom;
-    backgrounnd-size: 100% 100%;
-    }
+    background: url("camping_sunrays.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
 
 #rightbox {
-    float: right;
+    position: absolute;
+    right: 0px;
+    width: 46%;
+    height: auto;
+    border-left: 5px solid #222222;
+    margin-top: 220px;
+    margin-left: 2%;
+    padding-left: 2%;
     text-align: left;
-    width: 45%;
-    height: 100%;
-    padding: 2%;
+    text-overflow: ellipsis;
 }
 
 h1 { 
-	color: black; 
+	color: #222222; 
 	font-size: 48px;
 	font-weight: 600;
-	line-height: 0.7;
 }
 
 h2 {
+    color: #222222;
 	text-transform: uppercase;
 	font-weight: 600;
-	line-height: 0.7;
-}
-
-h4 {
-	font-size: 36px;
-	line-height: 0;
 }
 
 a {
@@ -55,7 +55,9 @@ a {
 	text-decoration: none;
 }
 
-a:hover {color: red;}
+a:hover {
+    cursor: pointer;
+    color: red;}
 
 ul.none { 
 	list-style: none;
@@ -64,7 +66,10 @@ ul.none {
 }
 
 li a {
-	display: block;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+	line-height: 1.2;
 }
 
 
