@@ -1,0 +1,32 @@
+/*h1 {
+	font-family: 'Kaushan Script', cursive;
+}*/
+
+h1, h2 {
+	display: inline-block;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+}
+
+h4, h6, p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+	font-weight: 700;
+}
+
+body {
+	margin: 5%;
+	line-height: 1.0;
+}
+
+ul {
+	list-style-type: circle;
+}
