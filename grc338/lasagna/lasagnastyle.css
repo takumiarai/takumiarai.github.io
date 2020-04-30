@@ -83,7 +83,7 @@ header h2 {
 .directions {
 	width: 90%;
 }
-.maincontent ol {
+.maincontent ol ul {
 	line-height: 1.7;
 }
 
