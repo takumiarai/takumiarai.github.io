@@ -1,6 +1,95 @@
 /*CSS DOCUMENT*/
 
+/*Open Sans 400, 400I, 700
+font-family: 'Open Sans', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*Cooper Black Regular 
+font-family: cooper-black-std, serif;
+font-weight: 400;
+font-style: normal;*/
+@import url("https://use.typekit.net/npt3ovc.css");
 
 img {
-width: 100%;}
+	width: 100%;
+	box-shadow: 0px 2px 5px gray;
+}
 
+body {
+	background-color: rgb(252, 246, 174);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+.container {
+	width: 65em;
+	margin: auto;
+}
+
+header {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+header h1 {
+	font-family: cooper-black-std, serif;
+	font-size: 3em;
+	color: rgb(179, 30, 7);
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+header h2 { 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	/*font-style:italic;*/
+	color: rgb(45, 45, 45);
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 1em 0;
+}
+
+.intro {
+	width: 69%;
+	margin: auto;
+}
+
+.intro p {
+	font-style: italic;
+}
+
+.maincontent {
+	width: 69%;
+	padding: 1%;
+	margin: auto;
+}
+
+.maincontent h3 {
+	font-family: cooper-black-std, serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(179, 30, 7);
+}
+
+.ingredients {
+	font-weight: 700;
+}
+
+.directions {
+	width: 90%;
+}
+.maincontent ol {
+	line-height: 1.7;
+}
+
+footer {
+	width: 69%;
+	padding: 1%;
+	margin: auto;
+	text-align: right;
+}
