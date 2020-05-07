@@ -1,15 +1,19 @@
+body{
+	background: #1C1b22;
+	padding: 0;
+	margin: 0;
+}
+
 div.gallery {
-	float: center;
-	margin: 5%;
-	margin: 5%;
-	width: 90%;
+	display: block;	
+	margin: auto;
+	width: 60em;
 }
 
 div.gallery img {
 	display: block;
-	margin-left: 20%;
-	margin-right: 20%;
-	width: 60%;
+	margin: auto;
+	width: 100%;
 	height: auto;
 	align: middle;
 }
@@ -19,12 +23,28 @@ div.desc {
 	font-weight: 400;
 	font-style: italic;
 	font-size: 20px;
-	padding: 18px;
-	padding-left: 20%;
+	padding: 1em 0 2em 0;
 	text-align: left;
 	color: lightyellow;
 }
 
 nav {
-	background: #2C2B32;
+	display: block;
+	padding: 0 0 1em 0;
+	width: 20em;
+	margin: auto;
+}
+
+nav li {
+	font-size: 1em;
+}
+
+ul {
+	display: block;
+}
+
+.logo img {
+	display: inline;
+	-webkit-filter: drop-shadow(2px 2px 8px white);
+    filter: drop-shadow(2px 2px 8px white);
 }
