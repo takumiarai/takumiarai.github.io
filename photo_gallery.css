@@ -1,5 +1,5 @@
 body{
-	background: #1C1b22;
+	background: #111;
 	padding: 0;
 	margin: 0;
 }
@@ -7,7 +7,7 @@ body{
 div.gallery {
 	display: block;	
 	margin: auto;
-	width: 60em;
+	width: 50em;
 }
 
 div.gallery img {
@@ -43,7 +43,14 @@ ul {
 	display: block;
 }
 
+.logo {
+	width: 200px;
+	margin: auto;
+	margin-top: 2em;
+}
+
 .logo img {
+	margin: auto;
 	display: inline;
 	-webkit-filter: drop-shadow(2px 2px 8px white);
     filter: drop-shadow(2px 2px 8px white);
