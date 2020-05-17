@@ -3,26 +3,36 @@
 /*general styles*/
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: #c4c4c4;
+	background-color: #fff;
 	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h3 {
+	color: #45A14D;
+	margin: 0.5em 1em 0 1em;
 	padding: 0;
 }
 
 p {
 	font-family: 'Roboto', sans-serif;
-	margin: 0;
-	padding: 5%;
-	width: 90%;
+	padding: 0;
+	margin: 0.3em 1em 1em 1.2em;
 	display: inline-block;
 }
 
 img {
-	width: 100%;
+	width: 90%;
+	margin: 1em auto;
+	display: block;
+	border-radius: 10px;
 }
 
 .masterbox {
-	width: 25em;
-	margin: auto;
+	width: 23.5em;
+	padding: 0;
+	margin: 1em auto;
 	background-color: #fff;
 }
 
@@ -42,8 +52,8 @@ nav {
 	top: 0;
 	list-style-type: none;
 	width: 85%;
-	margin: auto;
-	padding: 0.4em;
+	margin: 0 auto;
+	padding: 0.4em 0.5em;
 	background: #ED95B4;
 	border-radius: 20px;
 	font-weight: 900;
@@ -57,7 +67,8 @@ nav a {
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
-	padding: 0.5em;
+	margin: 0;
+	padding-left: 1em;
 }
 
 nav a:hover, .clicked {
@@ -65,28 +76,122 @@ nav a:hover, .clicked {
 }
 
 .menu {
-	width: 90%;
-	padding: 5%;
-	line-height: 1em;
+	line-height: 1.1;
 }
 
-.menu h2, h3 {
+.menu p {
+	padding: 0;
+	margin: 0.5em 1em 1em 1.2em;
+}
+
+.menu h2 {
+	color: #45A14D;
+	margin: 1em 1em 0 0.8em;
+	text-transform: uppercase;
+}
+
+.menu h3 {
 	color: #45A14D;
 }
 
-.menu h1, h6 {
-	display: inline;
+.menu h1 h2 h3 h6 {
+	margin: 1em 1em 0 1em;
+	padding: 0;
+	display: inline-block;
 }
 
-.menu h3, h6 {
+.menu img {
+	width: 90%;
+	margin: 0.2em auto 0.7em auto;
+	display: block;
+	border-radius: 10px;
+}
+
+
+/*.menu h3, h6 {
 	float: left;
 	line-height: 0;
+}*/
+
+.with-price {
+	width: 100%;
 }
 
-.with-price h6 {
+.with-price h3 {
+	display: inline;
+	float: left;
+	margin: 0.5em 1em 0 1em;
+}
+
+.with-price p {
+	display: inline;
 	float: right;
-	padding: 0 1em 0 0;
+	size: 1em;
+	margin: 0;
+	padding: 0.5em 1.2em 0 0;
 }
 
-.menu li {
+.menu ul {
+	padding: 0 1.2em 0 1em;
+	padding-left: 2em;
+	margin: 0 0 0 1em;
+	line-height: 1.2;
+	list-style-type: none;
 }
+
+.price {
+	float: right;
+}
+
+.popular {
+	list-style-image: url('images/green-bullet.png');
+}
+
+.endmark {
+	width: 60px;
+	margin: 2em auto;
+	padding: 0;
+	display: block;
+}
+
+.crepes ul{
+	line-height: 2.5;
+}
+
+.signature {
+	width: 90%;
+	margin: 1em auto;
+	height: 400px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	font-weight: 900;
+	-webkit-text-stroke: 1px black;
+	color: #fff;
+	padding: 0;
+}
+
+.milk-tea, .fruit-tea-1, .fruit-tea-2, .snow-bubble {
+	float: left;
+	width: 45%;
+	height: 190px;
+
+	padding: 0;
+	margin: 0 5% 5% 0;
+	background-image: url(images/milk-tea.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+
+.fruit-tea-1 {
+	background-image: url(images/fruit-tea.jpg);
+}
+
+.fruit-tea-2 {
+	background-image: url(images/fruit-tea.jpg);
+}
+
+.snow-bubble {
+	background-image: url(images/fruit-tea.jpg);
+}
+
