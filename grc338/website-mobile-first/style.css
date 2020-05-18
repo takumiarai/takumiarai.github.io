@@ -133,7 +133,7 @@ nav a:hover, .clicked {
 
 .menu ul {
 	padding: 0 1.2em 0 1em;
-	padding-left: 2em;
+	padding-left: 1.7em;
 	margin: 0 0 0 1em;
 	line-height: 1.2;
 	list-style-type: none;
@@ -173,7 +173,8 @@ nav a:hover, .clicked {
 .menu-splash-link, .location-splash-link, .yelp-splash-link, .about-splash-link {
 	background-image: url(images/taro-boba-and-lychee.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat:no-repeat;
+	background-position: right;
 	border-radius: 10px;
 	width: 90%;
 	height: 220px ;
