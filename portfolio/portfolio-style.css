@@ -6,8 +6,9 @@ body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	background: url(../images/cloud-mountain.jpg) center bottom fixed no-repeat;
+	background: url(images/cloud-mountain.jpg) center bottom fixed no-repeat;
 	background-size: cover;
+	background-color: #c4c4c4;
 }
 
 .centertop {
