@@ -7,6 +7,9 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	background-color: #c4c4c4;
+	margin: 0 8%;
+
 }
 
 p {
@@ -20,6 +23,7 @@ p {
 	display: relative;
 	float: left;
 	width: 45em;
+	padding: 2%;
 }
 
 .demo {
@@ -33,4 +37,27 @@ p {
 iframe {
 	width: 100%;
 	height: 100%;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+h1, h2, h3 {
+	color: #2a4494;
+	margin-bottom: 0.2em;
+} 
+
+h4 {
+	color: #4ea5d9;
+	margin-bottom: 0.2em;
+}
+
+hr {
+	border-top: 1px solid #fff;
+	background-color: #fff;
+}
+
+.highlight {
+	color: green;
 }
