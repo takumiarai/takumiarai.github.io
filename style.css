@@ -24,18 +24,20 @@ body {
 }
 
 .centertop {
-	/*position: fixed;*/
 	display: block;
-	width: 20em;
+	width: 25em;
 	margin: auto;
 	margin-top: 5em;
+}
+
+.centertop img {
+	width: 70%;
+	margin: auto;
+	display: block;
     -webkit-filter: drop-shadow(2px 2px 8px white);
     filter: drop-shadow(2px 2px 8px white);
 }
 
-.centertop img {
-	width: 100%;
-}
 .footer {
 	font-size: 1em;
 	position: fixed;
