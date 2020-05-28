@@ -127,6 +127,14 @@ hr {
     box-shadow: -0.2em 0.2em 0.5em #aaa;
 }
 
+.initial img:hover,
+.competitive img:hover,
+.team img:hover,
+.persona img:hover {
+	width: 100%;
+    box-shadow: -0.2em 0.2em 0.8em #222;
+}
+
 .award {
     clear: both;
     padding-top: 0.6em;
