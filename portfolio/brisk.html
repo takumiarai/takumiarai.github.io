@@ -1,78 +1,195 @@
-<!DOCTYPE HTML>  
-<html>  
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="brisk-style.css" />
+        <title>Brisk | Takumi's Portfolio</title>
+    </head>
 
-<head>  
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1">  
-    <link rel="stylesheet" type="text/css" href="brisk-style.css">  
-    <title>Brisk | Takumi's Portfolio</title>  
-</head>   
+    <body>
+        <div class="description">
+            <h1>Brisk Mobile App Prototype</h1>
 
-<body>
-	<div class="description">
-		<h1>Brisk App Prototyping Project</h1>
-		
-		<hr>
+            <hr />
 
-		<h2>Event</h2>
-			<h3>SLO Hacks 2020</h3>
-			<a href="https://www.slohacks.com/"><img src="images/slo-hacks-logo.png" alt="Logo of SLO Hacks."></a>
-			<p>A hackathon organized by Cal Poly students, biggest in the central coast.</p>
+            <div class="event">
+                <h2>The Event</h2>
+                <h3>SLO Hacks 2020</h3>
+                <a href="https://www.slohacks.com/"><img src="images/slo-hacks-logo.png" alt="Logo of SLO Hacks." /></a>
+                <p>A 36-hour hackathon organized by Cal Poly students, biggest in the central coast.</p>
+            </div>
+            <!-- event -->
 
-		<hr>
+            <hr />
 
-		<h2>Project</h2>
-			<p>I created the inital prototype called "BRISK", which was eventually rebranded by Tyler as <a href="https://devpost.com/software/brisk">"Haya"</a>. He redesigned the interface with modern trends and iOS designs in mind. Although his iteration made the prorotype look better, most of the functionality was made by me when it was called "Brisk". I have much more to learn, but I am proud to show this as my first complete Figma prototype!</p>
+            <h2>The Project</h2>
+            <p>
+                Our team participated in this hackathon to create a <span class="highlight">FinTech Mobile App</span> that can help people manage their spendings easier and faster. To accomplish this goal, we created a high-fidelity
+                prototype on Figma and a feature implementation written in Python.
+            </p>
 
-			<h3>Problem Statement</h3>
-				<p>Through a survey at the hackathon, we found that the majority of them <span class="highlight">do not manage their spendings.</span> They feel that it <span class="highlight">takes up too much time energy</span> out of their day. Not managing money can lead to overspending, putting them another step away from being adulthood. To take care of this problem, they need a good financial management that is <span class="highlight">visually appealing and functionally effective.</span></p>
-			<h3>Vision</h3>
-				<p>To create a financial management app usable in any occasion for <span class="highlight">quick entry of data</span>. 
-			<h3>Features</h3>
-				<ol>
-					<h4>Reciept Scanner</h4>
-						<p>Our programmers implemented our reciept scanning function using the <span class="highlight">Google Vision API</span>. With this we were were able to read the store name and total price. We built a library for the scanner to categorize the purchase into a category. We would want to improve this in the future using a pre-existing database of store names. Unfortunately, we were not able to read the individual item names and prices due to the varying formatting of different reciepts.</p>
-					<h4>Spreadsheet Sync</h4>
-						<p>Using the <span class="highlight">Google Sheets API</span>, we were able to gather the data into a personal spreadsheet. Since users will log into BRISK using their Google account, the app can automatically sync the data with a spreadsheet. With this feature, users can safely manipulate their logged data however they want.</p>
-					<h4>Budget Bars</h4>
-						<p>This feature shown in our Figma high-fidelity prototype is for users to easily keep track of spendings per timeframe. <span class="highlight">At a glance</span> they are able to see how much of their pre-determined budget they have spent so far. They have no need to do any of the number-crunching; all you need to do is open the app and take a quick look! </p>
-				</ol>
+            <div class="initial">
+                <h3>Initial Planning</h3>
+                <p>To compete with the limited time we had, we quickly hashed out our initial direction and user interface ideas.</p>
+                <img src="images/brisk-overview.jpg" alt="A scan of brisk project inital planning." />
+                <img src="images/brisk-ui-brainstorm.jpg" alt="Scan of brainstorm for UI." />
+            </div>
+            <!-- initial -->
 
-			<h3>Team Members</h3>
-			<p>The project idea was pitched by Andrew, who found that the pre-existing financial management apps were not good enough for his needs. He wished that he could use both a reciept scanning and spreadsheet syncing function.</p>
-			<ol>
-				<h4>UI Designers:</h4>
-					<p>Together we created a survey to gather information on whether financial management was relevant among college students. Once we found that this was a marketable audience, we decided on the vision and target audience. We developed two personas/case-studies before getting started on the prototyping. For the low-fidelity prototyping we separately made our own, for them to be compared and combined for the final prototype. Although it was our first time, we managed to use Figma to create a <span class="highlight">responsive prototype</span>.</p>
+            <div class="survey">
+                <h3>Research Survey</h3>
+                <p>
+                    Through a survey at the hackathon, we found that half of the pool <span class="highlight">did not manage their spendings.</span> They feel that it <span class="highlight">takes up too much time</span> out of their day.
+                    They need a popular financial management that is <span class="highlight">visually appealing, fast, and effective.</span>
+                </p>
+                <img src="images/survey-app-problems.png" alt="Screenshot of Google survey results on issues with pre-existing financial management apps." />
+            </div>
+            <!-- survey -->
 
-					<h5>Takumi Arai</h5>
-					<p>Project leading, case-studies, wireframing, high-fidelity prototyping.</p>
+            <div class="persona">
+                <h3>Persona Development</h3>
+                <p>
+                    We then created two personas to <span class="highlight">keep our vision in focus</span>. This helped us solidify our idea of creating a simple, visually appealing, fast mobile app. Hence, we named it brisk. We also
+                    created two scenarios to metally visualize the app.
+                </p>
+                <img src="" />
+            </div>
 
-					<h5>Tyler Matsuzaki</h5>
-					<p>Conducting the survey, creating the logos and icons, branding.</p>
-				<h4>Programmers:</h4>
-					<p>Our programmers, both Computer Science students at Cal Poly, learned how to use the <span class="highlight">Google Vision and Sheets API</span> to implement the app's features in order to show the judges our vision in action. </p>
+            <div class="competitive">
+                <h3>Competitive Analysis</h3>
+                <p>
+                    We found that the best financial management apps have an appealing user interface and other features to automate the financial management. Those features connecting bank accounts and using geolocations. However, we
+                    thought those <span class="highlight">features were too invasive on the users' personal information</span>. We kept our focus on creating an app that involves local input, synced to their personal Google Spreadsheet.
+                </p>
+                <img src="images/brisk-competitive-analysis-page-001.jpg" alt="Competitive analysis doc image." />
+                <img src="images/brisk-competitive-analysis-page-002.jpg" alt="Competitive analysis doc image page 2." />
+            </div>
+            <!-- competitors -->
 
-					<h5>Andrew Lai</h5>
-					<p>Figuring out Google View API, string parsing, categorization of scanned reciepts with handmade local library.</p>
+            <h3>Goal</h3>
+            <p>To create a financial management app with <span class="highlight">receipt scanning and Google Spreadsheets syncing</span> capability.</p>
 
-					<h5>Otakar Andersek</h5>
-					<p>Figuring out Google Sheets API </p>
-			</ol>
+            <div class="features">
+                <h3>Features</h3>
+                <ol>
+                    <li>
+                        <h4>Receipt Scanner</h4>
+                        <p>
+                            Our programmers implemented our receipt scanning function using the <span class="highlight">Google Vision API</span>. With this we were were able to read the store name and total price. We built a library for the
+                            scanner to categorize the purchase into a category. We would want to improve this in the future using a pre-existing database of store names. Unfortunately, we were not able to read the individual item names and
+                            prices due to the varying formatting of different receipts.
+                        </p>
+                    </li>
 
-		
-		<hr>
+                    <li>
+                        <h4>Spreadsheet Sync</h4>
+                        <p>
+                            Using the <span class="highlight">Google Sheets API</span>, we were able to gather the data into a personal spreadsheet. Since users will log into BRISK using their Google account, the app can automatically sync
+                            the data with a spreadsheet. With this feature, users can safely manipulate their logged data however they want.
+                        </p>
+                    </li>
 
-		<h2>Awards</h2>
-		<a href="https://devpost.com/software/brisk"><h3>Best Image Processing and Object Detection Hack</h3></a>
-		<p>yay hooray</p>
-	</div>
+                    <li>
+                        <h4>Budget Bars</h4>
+                        <p>
+                            This feature shown in our Figma high-fidelity prototype is for users to easily keep track of spendings per timeframe. <span class="highlight">At a glance</span> they are able to see how much of their
+                            pre-determined budget they have spent so far. They have no need to do any of the number-crunching; all you need to do is open the app and take a quick look!
+                        </p>
+                    </li>
+                </ol>
+            </div>
+            <!-- features -->
 
-	<div class="demo">
+            <h3>Design Iterations</h3>
+            <p>
+                We started our Figma prototype under the name of "Brisk", with the idea of having a bright blue gradient glowing in a dark-mode-like UI. At this stage, we implemented the wireframing and figured out the general flow of the
+                app. As we kept building the prototype, we found that it <span class="highlight">did not look good with the screen shape of the iPhone X</span>. Then, we decided to rebrand it as "Haya", with a
+                <span class="highlight">brighter interface, with more rounded designs</span>.
+            </p>
+
+            <div class="figma">
+	            <h4>Brisk</h4>
+	            <a href="https://www.figma.com/proto/8kJwLZeFLekMt0Jeaqhm7k/Brisk?scaling=scale-down&node-id=2%3A8">
+		            <div class="third-box">
+		                <img src="images/brisk-home.png" alt="Brisk app home page." />
+		                <p>Home page</p>
+		            </div>
+
+		            <div class="third-box">
+		                <img src="images/brisk-receipt.png" alt="Brisk app receipt scanning page." />
+		                <p>Receipt scanning</p>
+		            </div>
+
+		            <div class="third-box">
+		                <img src="images/brisk-recent.png" alt="Brisk app recent purchases." />
+		                <p>Recent purchases</p>
+		            </div>
+		        </a>
+
+	            <h4>Haya</h4>
+
+	            <a href="https://www.figma.com/proto/FJJNBDPUmDabLK6twQQPXG/Haya?node-id=2%3A8&scaling=scale-down">
+		            <div class="third-box">
+		                <img src="images/haya-home.png" alt="Haya app home page." />
+		                <p>Home page</p>
+		            </div>
+
+		            <div class="third-box">
+		                <img src="images/haya-receipt.png" alt="Haya app receipt scanning page." />
+		                <p>Receipt scanning</p>
+		            </div>
+
+		            <div class="third-box">
+		                <img src="images/haya-recent.png" alt="Haya app recent purchases." />
+		                <p>Recent purchases</p>
+		            </div>
+		        </a>
+
+            <hr />
+
+            <div class="team">
+                <h2>The Team</h2>
+                <img src="images/group-photo.jpg" alt="Photo of the team after winning the award." />
+                <div class="half-box">
+                    <h4>UI Designers:</h4>
+                    <h5>Takumi Arai</h5>
+                    <p>Project planning, persona development, wireframing, Figma prototyping.</p>
+
+                    <h5>Tyler Matsuzaki</h5>
+                    <p>Survey, logo and icon design, Figma prototyping.</p>
+                </div>
+                <!-- half-box -->
+
+                <div class="half-box">
+                    <h4>Programmers:</h4>
+                    <h5>Andrew Lai</h5>
+                    <p>Google View API, string parsing, automatic categorization of input item.</p>
+
+                    <h5>Otakar Andersek</h5>
+                    <p>Google Sheets API, string parsing, moral support.</p>
+                </div>
+                <!-- half-box2 -->
+            </div>
+            <!-- team -->
+            <hr />
+
+            <div class="award">
+	            <h2>The Award</h2>
+	            <a href="https://devpost.com/software/brisk"><h3>Best Image Processing and Object Detection Hack</h3></a>
+	            <p>
+	                After an allnighter reworking the figma prototype, we barely made it in time to pitch our product to the judges. We pitched a quick overview with the problem statement, vision statement, and design, followed by a demo of our implementation of the receipt scanning, spreadsheet syncing feature. We were selected as the "Best Image and Object Detection Hack"! I was so relieved to know that our hard work paid off. This was the best team I have ever worked with, and I'm grateful of the learning experience I had with my first ever Figma prototype.
+	            </p>
+	        </div> 
+	        <!-- award -->
+
+        </div>
+        <!-- desctiption -->
+
+        <a href="index.html"><img class="logo" src="images/my_logo@0.5x.png" alt="Takumi Arai logo."></a>
+
+        <!-- <div class="demo">
 		<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8kJwLZeFLekMt0Jeaqhm7k%2FOld-Brisk%3Fnode-id%3D2%253A8%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
-	</div>
-
-
-
-</body>  
-
+	</div> -->
+    </body>
 </html>
