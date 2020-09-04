@@ -3,11 +3,12 @@
 /*general styles*/
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #f3f3f3;
+    background-color: #f1f1f1;
     margin: 0;
     padding: 0;
     width: 100%;
     text-decoration: none;
+    color: #6e7477;
 }
 
 h3 {
@@ -36,7 +37,7 @@ img {
     max-width: 75em;
     padding: 0;
     margin: 1em auto;
-    background-color: #fff;
+    background-color: #f1f1f1;
 }
 
 header {
