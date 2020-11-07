@@ -3,12 +3,13 @@
 /*general styles*/
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #fff;
-    width: 50em;
+    width: 100%;
+    max-width: 50em;
     margin: auto;
     padding: 0;
-    background-color: #c4c4c4;
-    line-height: 1.5em;
+    background-color: #444444;
+    line-height: 1.5;
+    color: #eee;
 }
 
 p {
@@ -16,6 +17,7 @@ p {
     padding: 0;
     margin: 0.3em 1em 1em 1.2em;
     display: inline-block;
+    color: #eee;
 }
 
 .description {
@@ -47,7 +49,7 @@ h1,
 h2,
 h3,
 h5 {
-    color: #2a4494;
+    color: #4376f0;
     margin-bottom: 0.2em;
 }
 
@@ -56,7 +58,7 @@ h1 {
 }
 
 h4 {
-    color: #2a4494;
+    color: #4376f0;
     margin-bottom: 0.2em;
     margin-left: 1.5em;
     text-transform: uppercase;
@@ -82,7 +84,7 @@ hr {
     width: 92%;
     margin-left: 1.6em;
     border-radius: 1em;
-    box-shadow: -0.2em 0.2em 0.5em #aaa;
+    box-shadow: 0 0 0.5em #aaa;
 }
 
 .half-box {
@@ -114,7 +116,7 @@ hr {
 .third-box img {
     width: 100%;
     border-radius: 2.3em;
-    box-shadow: -0.2em 0.2em 0.5em #aaa;
+    box-shadow: 0 0 0.5em #aaa;
 }
 
 .initial img,
@@ -124,7 +126,7 @@ hr {
     width: 45%;
     margin-left: 1.5em;
     /*border-radius: 1em;*/
-    box-shadow: -0.2em 0.2em 0.5em #aaa;
+    box-shadow: 0 0 0.5em #aaa;
 }
 
 .initial img:hover,
@@ -132,7 +134,7 @@ hr {
 .team img:hover,
 .persona img:hover {
 	width: 100%;
-    box-shadow: -0.2em 0.2em 0.8em #222;
+    box-shadow: 0 0 0.8em #222;
 }
 
 .award {
