@@ -7,6 +7,7 @@ body {
     background-size: cover;  
     width: auto;
     min-width: 400px;
+    background-color: #212121;
 }
 
 h3 {
