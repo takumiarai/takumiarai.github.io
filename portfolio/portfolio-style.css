@@ -3,7 +3,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	height: 100%;
-	width: 100%;
+	width: auto;
 	padding: 0;
 	margin: 0;
 	background: url(images/cloud-mountain.jpg) center bottom fixed no-repeat;
@@ -13,7 +13,8 @@ body {
 
 .centertop {
 	display: block;
-	width: 25em;
+	width: auto;
+	max-width: 350px;
 	margin: auto;
 	margin-top: 5em;
 }
@@ -26,20 +27,21 @@ body {
     filter: drop-shadow(2px 2px 8px white);
 }
 
-nav li {
+.container {
 	display: block;
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: 400;
 	line-height: 1.5;
 	text-align: center;
 }
 
-nav a {
+a {
 	text-decoration: none;
 	color: #fff;
+	display: block;
 }
 
-nav a:hover {
+a:hover {
 	color: yellow;
 }

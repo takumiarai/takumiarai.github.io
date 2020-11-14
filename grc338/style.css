@@ -5,38 +5,49 @@ body {
     word-wrap: break-word;
     margin: 0;
     padding: 0;
+    background: url(camping-sunrays.jpg) center left fixed no-repeat;
+    background-size: cover;
+    width: auto;
 }
 
-img {
-    width: 100%;
-    max-height: 200px;
-    position: bottom;
-    object-fit: cover;
-}
 
-.rightbox {
-    position: relative;
+.container {
+    display: block;
     width: 100%;
-    margin: auto;
-    padding: 2% 5%;
+    margin: 0;
+    padding: 1rem;
     text-align: left;
     text-overflow: ellipsis;
 }
 
+.title {
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.assignments {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
 h1, h2 {
-    color: #222222;
+    color: #263238;
 	text-transform: uppercase;
-	font-weight: 600;
+    font-weight: 600;
+    width: auto;
 }
 
 a {
-	color: darkblue; 
+	color: #263238; 
 	text-decoration: none;
 }
 
 a:hover {
     cursor: pointer;
-    color: red;}
+    color: #2E7D32;}
 
 ul.plainlist { 
 	list-style: none;
