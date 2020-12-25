@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;0,800;1&family=Roboto:wght@400;700&display=swap');
+
+/*general styles*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f1f1f1;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #6e7477;
+}
+
+h3 {
+	color: #45A14D;
+	margin: 0.5em 1em 0 1em;
+	padding: 0;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0.3em 1em 1em 1.2em;
+	display: inline-block;
+}
+
+img {
+	width: 90%;
+	margin: 1em auto;
+	display: block;
+	border-radius: 1em;
+}
+
+.masterbox {
+	width: 23.5em;
+	padding: 0;
+	margin: 1em auto;
+	background-color: #f1f1f1;
+}
+
+header {
+	width: 90%;
+	margin: auto;
+}
+
+header img {
+	width: 100%;
+	padding: 0;
+}
+
+/*navigation styles*/
+nav {
+	position: sticky;
+	top: 0;
+	list-style-type: none;
+	width: 85%;
+	margin: 0 auto;
+	padding: 0.4em 0.5em 0.4em 0.8em;
+	background: #ED95B4;
+	border-radius: 2em;
+	font-weight: 900;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0;
+	padding-left: 1em;
+}
+
+nav a:hover, .clicked {
+	color: #95ED9D;
+}
+
+.menu {
+	line-height: 1.1;
+}
+
+.menu p {
+	padding: 0;
+	margin: 0.5em 1em 1em 1.2em;
+}
+
+.menu h2 {
+	color: #45A14D;
+	margin: 1em 1em 0 0.8em;
+	text-transform: uppercase;
+}
+
+.menu h3 {
+	color: #45A14D;
+}
+
+.menu h1 h2 h3 h6 {
+	margin: 1em 1em 0 1em;
+	padding: 0;
+	display: inline-block;
+}
+
+.menu img {
+	width: 90%;
+	margin: 1.2em auto 0.4em auto;
+	display: block;
+	border-radius: 1em;
+}
+
+
+/*.menu h3, h6 {
+	float: left;
+	line-height: 0;
+}*/
+
+.with-price {
+	width: 100%;
+}
+
+.with-price h3 {
+	display: inline;
+	float: left;
+	margin: 0.5em 1em 0 1em;
+}
+
+.with-price p {
+	display: inline;
+	float: right;
+	size: 1em;
+	margin: 0;
+	padding: 0.5em 1.2em 0 0;
+}
+
+.menu ul {
+	padding: 0 1.2em 0 1em;
+	padding-left: 1.7em;
+	margin: 0 0 0 1em;
+	line-height: 1.2;
+	list-style-type: none;
+}
+
+.price {
+	float: right;
+}
+
+.popular {
+	list-style-image: url('images/green-bullet.png');
+}
+
+.endmark {
+	width: 4em;
+	margin: 2em auto;
+	padding: 0;
+	display: block;
+}
+
+.crepes ul{
+	line-height: 2.5;
+}
+
+.menu-splash-link, .location-splash-link, .yelp-splash-link, .about-splash-link {
+	background-image: url(images/taro-boba-and-lychee.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: right;
+	border-radius: 1em;
+	width: 90%;
+	height: 14em ;
+	padding: 0;
+	margin: 1em 5% 0.2em 5%;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+.location-splash-link {
+	background-image: url(images/bobastop-map.jpg);
+	background-position: bottom;
+}
+
+.about-splash-link {
+	background-image: url(images/bobastop-storefront.jpg);
+	background-position: center;
+}
+
+.yelp-splash-link {
+	background-image: url(images/yelp-logo.jpg);
+	background-position: center;
+}
+
+.welcome h2 {
+	padding: 4em 0;
+}
+
+.welcome p {
+	line-height: 0;
+	margin: 0 1em 0 1.2em;
+	padding: 0;
+}
+
+.welcome img {
+	margin: 1em 1em 0.3em 1em;
+}
+
+iframe {
+	display: block;
+	width: 90%;
+	margin: auto;
+	border-radius: 1em;
+}

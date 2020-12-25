@@ -1,35 +1,95 @@
-<!DOCTYPE HTML>
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
- 
-	<meta charset=”UTF-8”>
-	<meta name="viewport" content="width=device-width, inital-scale=1">
-	<link rel="stylesheet" href="portfolio-style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="style.scss" rel="stylesheet">
 
-	<link rel="stylesheet" href="https://use.typekit.net/qrl2owz.css">
-	<script src="https://use.fontawesome.com/2ce34c8cb5.js"></script>
+    <title>Takumi Arai • Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light mt-2">
+                <div class="container-fluid px-2">
+                  <a class="navbar-brand" href="../home/index.html"><h5>Takumi Arai</h5></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../home/index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../portfolio/index.html">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../contact/index.html">Contact</a>
+                      </li>
+                  </div>
+                </div>
+              </nav>
+        </div> 
 
-	<title>Takumi Arai Portfolio</title>
+        <div class="row">
+          <div class="card border-white my-5 mx-auto" style="max-width: 780px;">
+            <div class="row g-0">
+              <div class="col-md-5 px-3">
+                <img src="../images/color-and-type.png" class="rounded-3" alt="Graphic for Roopairs color and font redesign">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">Color and Typography Design System</h5>
+                  <p class="card-text mb-0">Conducted a redesign process to redefine the core elements of a design system.</p>
+                  <p class="card-text"><a href="./roo-color-font.html" class="text-decoration-none text-secondary"><small>View Case Study ></small></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-white my-5 mx-auto" style="max-width: 780px;">
+            <div class="row g-0">
+              <div class="col-md-5 px-3">
+                <img src="../images/dashboard.png" class="rounded-3" alt="Graphic for Roopairs Dashboard Redesign">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">New Dashboard Design</h5>
+                  <p class="card-text mb-0">Researched and designed a Dashboard to improve the usability of a service management app.</p>
+                  <p class="card-text"><a href="./roo-dash.html" class="text-decoration-none text-secondary"><small>View Case Study ></small></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-white my-5 mx-auto" style="max-width: 780px;">
+            <div class="row g-0">
+              <div class="col-md-5 px-3">
+                <img src="../images/fintech-app.png" class="rounded-3" alt="Graphic for Fintech App Prototype">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title">FinTech App Prototype</h5>
+                  <p class="card-text mb-0">Planned and designed the functionality of a FinTech app for a hackathon.</p>
+                  <p class="card-text"><a href="./hackathon-prototype.html" class="text-decoration-none text-secondary"><small>View Case Study ></small></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-</head>
+        <div class="row">
+          <div class="card border-white my-5 mx-auto" style="max-width: 16em;">
+            <a class="btn btn-secondary btn-md" href="../contact/index.html" role="button">Go To Contact</a>
+        </div>
+    </div>
 
-<body>
-	<div class="centertop">
-		<a href="../index.html"><img src=images/my_logo@0.5x.png alt="Takumi Arai Logo"></a>
-	</div>
-	
-	<div class="container">
-		<a href="../Takumi-Arai_Resume.pdf">
-			<i class="fa fa-file-text" aria-hidden="true"></i>
-			Resume 
-		</a>
 
-		<a href="brisk.html"> 
-			Hackathon App Design 
-		</a>
-	</div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-</body>
-
+  </body>
 </html>

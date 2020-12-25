@@ -1,0 +1,59 @@
+body {
+	background-color: #eaeaea;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.0;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    max-height: 200px;
+    position: bottom;
+    object-fit: cover;
+}
+
+.rightbox {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding: 2% 5%;
+    text-align: left;
+    text-overflow: ellipsis;
+}
+
+h1, h2 {
+    color: #222222;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+a {
+	color: darkblue; 
+	text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: red;}
+
+ul.plainlist { 
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol.numberedlist{
+    margin: 0 1em;
+    padding: 0 0.2em;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+li a {
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+	line-height: 1.6;
+}
