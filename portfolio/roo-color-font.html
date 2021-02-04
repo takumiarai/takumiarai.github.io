@@ -41,36 +41,51 @@
             <p class="card-header bg-transparent border-white mb-0"><a href="./index.html" class="text-decoration-none text-secondary"><small>< Go Back</small></a></p>
             <div class="card-body">
               <h2 class="card-title fw-bold">Color and Typography Design System</h2>
-              <p class="card-text mb-0 text-muted">Roopairs Product Design // Fall 2020</p>
+              <p class="card-text mb-0 text-muted">Roopairs Product Design // Sept-Dec 2020</p>
             </div>
             <img src="../images/color-and-type.png" class="rounded-3 mx-3" alt="Graphic for Roopairs color and font redesign">
             <p class="mt-1 mx-auto text-muted">Color palette and typeface of the redefined design system.</p>
-            <p class="mt-2 mx-3">As a Product Design Intern at a startup company, my co-intern Tyler and I developed their Color and Typography Design System using Figma.</p>
-            <h4 class="mt-2 mx-3"><strong>The Problem and Solution</strong></h4>
-            <p class="mt-2 mx-3">Our users were experiencing readability issues with the app. They often couldn't see the screen under outdoor glare, and had difficulties reading the smaller font sizes. With my co-intern Tyler, we expanded our knowledge through online research. We found that our typeface did not perform well on screen at smaller sizes, and our color system did not produce enough contrast.</p>
-            <p class="mt-2 mx-3">We did some more online research to learn about some requirements to set for this project.</p>
-            <p class="mt-2 mx-3">Here are the two requirements we set ourselves to accomplish:</p>
+            <p class="mt-2 mx-3">I built a Color and Typography Design System to resolve accessibility and usability issues. Through research, I learned about the technical requirements with colors and fonts, and how to create an effective design system using Figma.</p>
+            <h4 class="mt-2 mx-3"><strong>The Problem</strong></h4>
+            <p class="mt-2 mx-3">Our users were experiencing readability issues with the app. They struggled to see the interface under outdoor glare, and the smaller fonts were hard to read.</p>
+            <p class="mt-2 mx-3">I researched online across many UX articles and discovered two things. The interface was not producing enough contrast, and our font Nunito did not perform well on screens.</p>
+            <img src="../images/roo-old-ui.png" class="rounded-3 mx-3" alt="A screenshot of Roopairs old UI">
+            <h4 class="mt-2 mx-3"><strong>The Solution</strong></h4>
+            <p class="mt-2 mx-3">We set two specific goals to solve this problem:</p>
             <ol class="mx-3">
-              <li>Generate a color system around the core brand color, fulfilling WCAG standards for color contrast.</li>
-              <li>Pick a new typeface that matches the Roopairs brand and provides better performance at a low pixel-count.</li>
+              <li>Generate a color system that will help fulfill color contrast standards.</li>
+              <li>Generate a type system that improves brand identity and provides a better visual balance.</li>
             </ol>
-            <h4 class="mt-2 mx-3"><strong>How We Approached the Problem</strong></h4>
-            <p class="mt-2 mx-3"><strong>Build a Design System and redefine Color and Typography.</strong> It will include:</p>
-            <ol class="mx-2">
-              <li>A documented color system to satisfy usability standards, to make the app more legible and usable.</li>
-              <li>A documented type system to expand design possibilities and make the app more legible.</li>
-            </ol>
-            <p class="mt-2 mx-3">To accomplish this, we dove into research to have a better understanding about color, typography, and design systems.</p>
-            <h4 class="mt-2 mx-3"><strong>The Research</strong></h4>
-            <p class="mt-2 mx-3">We found that:</p>
+
+            <h4 class="mt-2 mx-3"><strong>Requirements</strong></h4>
+            <p class="mt-2 mx-3">To accomplish these goals, we had to intialize a design system. I researched online to learn about how to create an effective design system. Then I found Mailchimp and ServiceTitan's design system, where they provided a simple and purposeful documentation of their interface design. With this as my primary source of reference, I noted several things:</p>
             <ul class="mx-2">
-              <li>A color palette should be built using pre-existing tools from Material Design and Paletton.</li>
-              <li>Color usages should be fully tested with color contrasts measured on Figma.</li>
-              <li>Color contrast should pass WCAG small text standards.</li>
-              <li>The documentation should be done on Figma along with building a color and typography library for the team.</li>
-              <li>The documentation should should resemble the level of detail shown in the Mailchimp UX doc.</li>
+              <li>Colors should have meaning corresponding to color psychology.</li>
+              <li>Colors and types should include documentation of usages.</li>
+              <li>Colors should have a tint and shade.</li>
+              <li>The typography should include a documentation of its intended feel.</li>
+              <li>The design system should be created on Figma, for its useful cloud library feature.</li>
             </ul>
-            <p class="mt-2 mx-3">[Page in progress]</p>
+            <p class="mt-2 mx-3">Building a design system will make our product more consistent, accessible, and reliable. It will also greatly help the future team to have a more efficient and effective design process.</p>
+            <h4 class="mt-2 mx-3"><strong>Color</strong></h4>
+            <p class="mt-2 mx-3">Initally, I used Material design's color tool to generate an accessible set of colors. This color palette unfortunately did not get approved because they wanted a wider variety of colors including orange and yellow. Then we decided to use paletton.com to generate a color palette with a combination of a triad and tetrad color combo. For our gray colors, we used Material design's color set.</p>
+            <img src="../images/final-palette.png" class="rounded-3 mx-3" alt="Our final, approved color palette.">
+            <h4 class="mt-2 mx-3"><strong>Typography</strong></h4>
+            <p class="mt-2 mx-3">Rubik has always been the font of our logomark, but it was not used for our interface. I looked more into Rubik and found some advantages:</p>
+            <ul class="mx-2">
+              <li>The monospace numerical characters give an analog aesthetic to the dollar values.</li>
+              <li>The variety of font weights allows for a better expression of hierarchy.</li>
+              <li>The higher x-height provides better legibility at smaller sizes.</li>
+            </ul>
+            <p class="mt-2 mx-3">Yay! We then prototyped several screens to check its readability. I used a Figma plugin to measure the color contrast as we developed the new screens.</p>
+            <img src="../images/roo-new-ui.png" class="rounded-3 mx-3" alt="Screenshots of the new UI.">
+            <h4 class="mt-2 mx-3"><strong>The Result</strong></h4>
+            <p class="mt-2 mx-3">Once the new color pallete and type system were approved, I created the design system on Figma. Now that we have a Figma team library with the new design system, the new color and type system are set in stone and the front-end team can start working updating the code base of styles.</p>
+            <h4 class="mt-2 mx-3"><strong>Challenges</strong></h4>
+            <p class="mt-2 mx-3">The biggest challenge with this project was in making design decisions with limited technical knowledge. Since I am not an experienced professional in color, I relied on online software to generate a color palette while making sure that it passes the contrast standards. Althought I gave my best effort in creating an effective color palette, I'm sure that some adjustments will have to be made before the app is officially deployed. However, I do believe this project was a confident starting point for our new design system.</p>
+            <h4 class="mt-2 mx-3"><strong>Looking Forward</strong></h4>
+            <p class="mt-2 mx-3">Starting here, we are continuing to work on the design system by setting up an atomic design system and creating components to be used on every new screen we design. I hope that my efforts made for this document will help the product grow in a good direction.</p>
+
           </div>
         </div>
 

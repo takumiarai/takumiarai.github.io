@@ -9,6 +9,10 @@ img {
     max-height: 100%;
 }
 
+/* p, li {
+    font-size: 1.125rem;
+} */
+
 a{
     color: linear-gradient(to right, #9602BB, #01F0B6) !important;
 }
