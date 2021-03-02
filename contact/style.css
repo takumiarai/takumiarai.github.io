@@ -3,3 +3,11 @@
     width: 100%;
     background: none !important;
 }
+
+p {
+    font-size: 1.125rem;
+}
+
+li {
+    font-size: 1.125rem;
+}
