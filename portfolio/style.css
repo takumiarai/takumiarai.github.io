@@ -22,6 +22,10 @@ h4 {
     line-height: 1.75;
 }
 
-a{
-    color: linear-gradient(to right, #9602BB, #01F0B6) !important;
+.gradient {
+    font-weight: 600;
+    background: -webkit-linear-gradient(right,#30CFD0 0%, #4d00aa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

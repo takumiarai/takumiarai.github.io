@@ -12,6 +12,11 @@ li {
     font-size: 1.125rem;
 }
 
+
+button {
+    color: red;
+}
+
 /* 
 img {
     padding: 0;
