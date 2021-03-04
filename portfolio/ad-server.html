@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="./style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
 
     <title>Ad Server React App</title>
   </head>
@@ -16,7 +19,7 @@
         <div class="row">
             <nav class="navbar navbar-expand-sm navbar-light bg-light mt-2">
                 <div class="container-fluid px-0">
-                  <a class="navbar-brand" href="../index.html"><h5>Takumi Arai</h5></a>
+                  <a class="navbar-brand gradient" href="../index.html"><h4>Takumi Arai</h4></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -37,7 +40,7 @@
         </div> 
 
         <div class="row">
-          <div class="card border-white mb-5 mx-auto" style="max-width: 720px;">
+          <div class="card border-0 mb-5 mx-auto" style="max-width: 720px;">
             <div class="card-body px-0">
               <h2 class="card-title fw-bold gradient">Ad Server React App</h2>
               <p class="card-text mb-0 text-muted">CSC 307: Intro to Software Engineering  // Sept-Dec 2020</p>
@@ -46,19 +49,19 @@
             <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>A caption for the above graphic.</small></p>
             <h4 class="mt-2"><strong>The Project</strong></h4>
             <p class="mt-2">I worked with a team of five Computer Science students to create a working app for iFixit's ad server. I was responsible for designing the low and mid fidelity prototypes, and implementing the "New Ad" component.</p>
-            <p class="mt-2">Our project went like this:</p>
+            <p class="mt-2">Our project roadmap:</p>
             <ul class="mx-3">
               <li>Learn about how ads and campaigns work.</li>
               <li>Meet with iFixit technical director Miles as a client, to ask questions to refine the requirements for this app.</li>
-              <li>Create prototypes for the app.</li>
+              <li>Create prototypes.</li>
               <li>Build the app using React, Node, and Firebase as the database.</li>
             </ul>
 
-            <p class="mt-2">We decided to use React for the front-end and Node for the back-end, using Firebase for the database. We split up into two teams of three to have a front-end and back-end team.</p>
+            <p class="mt-2">We decided to use React for the front-end and Node for the back-end, using Firebase for the database. We split up into two teams to have a front-end and back-end team.</p>
 
 
             <h4 class="mt-2"><strong>The Prototypes</strong></h4>
-            <p class="mt-2">I created rough sketches of the interface based on what we discussed as a team. I created two versions to bring to the team and discuss which options would be better. Once we agreed on an idea, I created a higher fidelity prototype on Figma.</p>
+            <p class="mt-2">I created rough sketches of the interface based on what we discussed as a team, then created two versions to bring to the team and discuss which options would be better. After we agreed on a design, I created a higher fidelity prototype on Figma.</p>
             <img src="../images/ad-server-prototype-adboard.png" class="rounded-3 img-fluid shadow-sm" alt="Graphic for Freestyle App">
             <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Mid-fidelity layout and ad table.</small></p>
 
@@ -66,7 +69,7 @@
             <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Mid-fidelity layout and campaign table.</small></p>
 
             <h4 class="mt-2"><strong>Implementation</strong></h4>
-            <p class="mt-2">I was responsible of the "New Ad" modal, which also includes a preview of the Ad. I used the React Bootstrap Modal and Grids to create this component. It was quite exciting how I was able to make the preview pretty accurate to actual ads on the iFixit website.</p>
+            <p class="mt-2">I was responsible of building the "New Ad" modal, also including a preview of the Ad using front-end data. I used the React Bootstrap Modal and Grids to create this component. The preview turned our pretty good, looking almost identical to the actua iFixit ads on their website.</p>
             <img src="../images/new-ad-empty.png" class="rounded-3 img-fluid" alt="Graphic for Freestyle App">
             <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>The New Ad Modal I implemented.</small></p>
 
@@ -79,8 +82,8 @@
             <h4 class="mt-2"><strong>Challenges</strong></h4>
             <p class="mt-2">Some challenges I faced with this project:</p>
             <ul class="mx-3">
-              <li>My component initially made with CSS grid was not clean, so I redid it with React Bootstrap Grid and Modal components. The CSS grid version wasted one week of my work time.</li>
-              <li>Front-end team couldn't complete our code until the back-end finished the API.</li>
+              <li>My component initially made with CSS grid was not so fresh, so I redid it with React Bootstrap Grid and Modal components. The CSS grid version wasted one week of my work time.</li>
+              <li>Front-end engineers couldn't finish the code until the back-end finished the API.</li>
               <li>The 5 week time constraint.</li>
             </ul>
 
@@ -93,7 +96,7 @@
         </div>
 
         <div class="row">
-          <div class="card border-white my-5 mx-auto" style="max-width: 16em;">
+          <div class="card border-0 my-5 mx-auto" style="max-width: 16em;">
             <a class="btn btn-secondary btn-md" href="#" role="button">Back To Top</a>
         </div>
     </div>
