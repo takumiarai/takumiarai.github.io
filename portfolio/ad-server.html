@@ -54,22 +54,31 @@
               <li>Learn about how ads and campaigns work.</li>
               <li>Meet with iFixit technical director Miles as a client, to ask questions to refine the requirements for this app.</li>
               <li>Create prototypes.</li>
-              <li>Build the app using React, Node, and Firebase as the database.</li>
+              <li>Build an MVP of the app.</li>
             </ul>
 
-            <p class="mt-2">We decided to use React for the front-end and Node for the back-end, using Firebase for the database. We split up into two teams to have a front-end and back-end team.</p>
+            <p class="mt-2">We decided to use React for the front-end and Node for the back-end, with a database on Firebase. We split up into a front-end and back-end team. I joined the front-end team to implement components and connect them to the backend.</p>
 
 
-            <h4 class="mt-2"><strong>The Prototypes</strong></h4>
-            <p class="mt-2">I created rough sketches of the interface based on what we discussed as a team, then created two versions to bring to the team and discuss which options would be better. After we agreed on a design, I created a higher fidelity prototype on Figma.</p>
-            <img src="../images/ad-server-prototype-adboard.png" class="rounded-3 img-fluid shadow-sm" alt="Graphic for Freestyle App">
-            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Mid-fidelity layout and ad table.</small></p>
+            <h4 class="mt-2"><strong>Design</strong></h4>
+            <p class="mt-2">I created sketches of the Ad Table and New Ad Modal to visualize the team's ideas.</p>
+            <img src="../images/line-item-lofi.jpg" class="rounded-3 img-fluid shadow-sm" alt="Graphic for Freestyle App">
+            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Low-fidelity sketch of the Ad Table and line item.</small></p>
 
-            <img src="../images/ad-server-prototype-campaigns.png" class="rounded-3 img-fluid shadow-sm" alt="Graphic for Freestyle App">
-            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Mid-fidelity layout and campaign table.</small></p>
+            <img src="../images/addmodal-lofi.jpg" class="rounded-3 img-fluid shadow-sm" alt="Graphic for Freestyle App">
+            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Low-fidelity sketch of the New Ad Modal.</small></p>
+
+            <p class="mt-2">I then created two different ways to group Ads into Campaigns. I brought this to the team to discuss which option would be better considering usability and difficulty of development.</p>
+            <img src="../images/campaign-a-lofi.jpg" class="rounded-3 img-fluid shadow-sm" alt="Graphic for Freestyle App">
+            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Campaign Version A</small></p>
+
+            <img src="../images/campaign-b-lofi.jpg" class="rounded-3 img-fluid shadow-sm" alt="Graphic for Freestyle App">
+            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Campaign Version B</small></p>
+
+            <p class="mt-2">We decided to go with version B for the campaigns.</p>
 
             <h4 class="mt-2"><strong>Implementation</strong></h4>
-            <p class="mt-2">I was responsible of building the "New Ad" modal, also including a preview of the Ad using front-end data. I used the React Bootstrap Modal and Grids to create this component. The preview turned our pretty good, looking almost identical to the actua iFixit ads on their website.</p>
+            <p class="mt-2">I was responsible for building the "New Ad" modal with a preview of the Ad using front-end data. I used the React library to create this component. The Ad preview turned out pretty good, with options to center or left align the contents. It closely reflects the Ads actually used on the iFixit website.</p>
             <img src="../images/new-ad-empty.png" class="rounded-3 img-fluid" alt="Graphic for Freestyle App">
             <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>The New Ad Modal I implemented.</small></p>
 
@@ -82,13 +91,13 @@
             <h4 class="mt-2"><strong>Challenges</strong></h4>
             <p class="mt-2">Some challenges I faced with this project:</p>
             <ul class="mx-3">
-              <li>My component initially made with CSS grid was not so fresh, so I redid it with React Bootstrap Grid and Modal components. The CSS grid version wasted one week of my work time.</li>
-              <li>Front-end engineers couldn't finish the code until the back-end finished the API.</li>
-              <li>The 5 week time constraint.</li>
+              <li>The limited five week development period.</li>
+              <li>I initially made the Add Modal component using CSS grid, which ended up being more code than I needed. I redid it with the Modal component and React Grids, which turned out much simpler and better looking.</li>
+              <li>Front-end developers couldn't connect to the backend until the back-end team finished the API.</li>
             </ul>
 
             <h4 class="mt-2"><strong>Looking Back</strong></h4>
-            <p class="mt-2">This was my first time building a functional app, so it was exciting to see my implementations working on a real app. I was also able to apply my prototyping skills to this team, and I think it saved us a lot of time by having a clear, unified vision before implementation.</p>
+            <p class="mt-2">This was my first time building a functional app, so it was exciting to see my implementations working on a real app. Although the skillsets of our team members varied, everyone was honest with their communication, so I had a smooth experience working with this team. I was also able to apply my prototyping skills to this team of Computer Science students, and I think that saved us a lot of time by solidifying a unified vision before implementing the app.</p>
 
             <p class="mt-2 text-center"><a href="https://github.com/AndersonKyle324/AlphaTeam-AdServer/blob/master/ad-server/src/components/ManagementPage/AddModal/AddModal.jsx" class="" target="_blank">GitHub Code</a></p>
 
@@ -97,7 +106,7 @@
 
         <div class="row">
           <div class="card border-0 my-5 mx-auto" style="max-width: 16em;">
-            <a class="btn btn-secondary btn-md" href="#" role="button">Back To Top</a>
+            <a class="btn btn-secondary btn-md" href="./index.html" role="button">Back To Portfolio</a>
         </div>
     </div>
 
