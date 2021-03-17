@@ -1,7 +1,7 @@
 body {
     color: #212121;
     font-family: "Lato", sans-serif;
-    background: #EFEFF1;
+    background: #ECEFF1;
 }
 
 .navbar {
@@ -19,6 +19,13 @@ li {
 
 .gradient {
     font-weight: 600;
+    background: -webkit-linear-gradient(right,#30CFD0 0%, #4d00aa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-400 {
     background: -webkit-linear-gradient(right,#30CFD0 0%, #4d00aa 100%);
     background-clip: text;
     -webkit-background-clip: text;

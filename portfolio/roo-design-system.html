@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
 
-    <title>Design System for Accessibility</title>
+    <title>Takumi Arai | Portfolio - Design System for Accessibility</title>
   </head>
   <body>
     <div class="container">
@@ -43,23 +43,29 @@
           <div class="card border-0 mb-5 mx-auto" style="max-width: 720px;">
             <div class="card-body px-0">
               <h2 class="card-title fw-bold gradient">Design System for Accessibility</h2>
-              <p class="card-text mb-0 text-muted">Roopairs Product Design // Fall 2020 - Winter 2021</p>
+              <p class="card-text mb-0 text-muted">Fall 2020–Winter 2021 // Roopairs Product Design</p>
             </div>
-            <img src="../images/color-and-type.png" class="rounded-3 img-fluid" alt="Graphic for Roopairs color and font redesign">
+            <img src="../images/color-and-type.png" class="img-fluid rounded-3" alt="Graphic for Roopairs color and font redesign">
             <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>New colors and typeface for the app.</small></p>
-            <p class="mt-2">I built a Design System including a color and type system to resolve accessibility and usability issues. I gained technical knowledge about color and typography and learned about the importance of design systems.</p>
+            <p class="mt-2"><strong>Skills:</strong> Color, Typography, Figma, CSS, JSX.</p>
+
+            <p class="mt-2">I built a design system to resolve accessibility and usability issues of our user interface.</p>
             <h4 class="mt-2"><strong>The Problem</strong></h4>
-            <p class="mt-2">Users were experiencing readability issues with the app. They struggled to see the interface under outdoor glare, and smaller fonts were too hard to read.</p>
-            <p class="mt-2">I dove into research to gain a better understanding of color and type, specifically focusing on accessibility and readability. Through research, I found that the colors and font weights did not produce enough contrast, making the interface difficult to read especially in outdoor settings.</p>
-            <img src="../images/roo-old-ui.png" class="img-fluid" alt="A screenshot of Roopairs old UI">
+            <p class="mt-2">Users were experiencing readability issues with the app. They struggled to see the interface under outdoor glare and some of the small fonts were too hard to read.</p>
+            <p class="mt-2">I researched about color and typography, focusing on accessibility and readability. I learned that our problem was mainly due to color contrast, and that we ultimately had to establish a color and type system.</p>
+            <img src="../images/roo-old-ui.png" class="img-fluid rounded-3" alt="A screenshot of Roopairs old UI">
             <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Old UI with low contrast levels.</small></p>           
 
             <h4 class="mt-2"><strong>The Solution</strong></h4>
-            <p class="mt-2">We set two specific goals to solve this problem:</p>
-            <ol class="mx-3">
-              <li>Generate a color system that will improve the contrast of the interface.</li>
-              <li>Generate a type system that allow for better expression of hierarchy while following brand identity.</li>
-            </ol>
+            <p class="mt-2">We could have simply fixed the problem by making our UI elements darker for contrast, but that would not solve the root of the problem.</p>
+            <p class="mt-2">The real problem was that the user interface designs were not checked before it went into development. Contrast issues should be addressed at the design phase, or moreso at the creation of the design system.</p>
+            <p class="mt-2">We had to establish a design system to mitigate all sorts of future usability issues.</p>
+
+            <p class="mt-2">For the scope of this problem, we set two specific goals:</p>
+            <ul class="mx-3">
+              <li>Design a color system that will solve contrast issues.</li>
+              <li>Design a type system that will improve readability.</li>
+            </ul>
 
             <h4 class="mt-2"><strong>Requirements</strong></h4>
             <p class="mt-2">To accomplish these goals, we had to start a design system. I researched online to learn about how to approach this. Along with several UX articles from medium.com, Mailchimp and ServiceTitan's design system were great sources for me to learn about the purpose of a design system. Here's what I learned about design systems:</p>
@@ -80,7 +86,7 @@
 
             <h4 class="mt-2"><strong>Color</strong></h4>
             <p class="mt-2">Initally, I used Material design's color tool to automatically generate an accessible set of colors. This color palette unfortunately did not get approved by my superiors because it did not include orange and yellow on the palette. Orange and yellow show poorly on screens, so I suggested a design that would not require orange and yellow. However, it did not get approved because they wanted to avoid making major changes to our existing color language. Then, to get yellow and orange, we used paletton.com with a triad and tetrad color combo. For our gray colors, we used Material design's color set.</p>
-            <img src="../images/final-palette.png" class="img-fluid" alt="Our final, approved color palette.">
+            <img src="../images/final-palette.png" class="img-fluid rounded-3" alt="Our final, approved color palette.">
             <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>The approved color palette using paletton.com</small></p>
 
             <h4 class="mt-2"><strong>Typography</strong></h4>
@@ -91,7 +97,7 @@
               <li>Its 600-weight provides good contrast, while not being overwhelmingly thick.</li>
             </ul>
             <p class="mt-2">Yay! We then prototyped several screens to check for readability. I also used a Figma plugin to measure the color contrast as we developed the new screens.</p>
-            <img src="../images/roo-new-ui.png" class="img-fluid" alt="Screenshots of the new UI.">
+            <img src="../images/roo-new-ui.png" class="img-fluid rounded-3" alt="Screenshots of the new UI.">
             <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>New screens with improved contrast levels.</small></p>
 
 
