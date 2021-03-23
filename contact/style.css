@@ -1,16 +1,12 @@
 body {
     color: #212121;
     font-family: "Lato", sans-serif;
-    background: #ECEFF1;
+    background: #E0E0E0;
 }
 
 .navbar {
     width: 100%;
     background: none !important;
-}
-
-p {
-    font-size: 1.125rem;
 }
 
 li {

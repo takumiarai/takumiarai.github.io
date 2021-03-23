@@ -1,11 +1,11 @@
 body {
     color: #212121;
     font-family: "Lato", sans-serif;
-    background: #ECEFF1;
+    background: #616161;
 }
 
 .card {
-    background: #EFEFF1;
+    background: #FCFEFE;
 }
 
 .navbar {
@@ -37,5 +37,8 @@ li {
 }
 
 h4 {
+    color: #003398;
     font-weight: 600;
+    line-height: 0.2;
+    padding-top: 1rem;
 }

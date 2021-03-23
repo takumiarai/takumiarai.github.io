@@ -1,7 +1,7 @@
 body {
     color: #212121;
     font-family: "Lato", sans-serif;
-    background: #ECEFF1;
+    background: #E0E0E0;
 }
 
 .navbar {
@@ -18,7 +18,7 @@ li {
 }
 
 button {
-    color: red;
+    color: #003398;
 }
 
 .gradient {
@@ -28,6 +28,10 @@ button {
     background-clip: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.blue {
+    background: #003398;
 }
 
 h4 {
