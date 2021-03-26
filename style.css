@@ -17,8 +17,9 @@ li {
     font-size: 1.125rem;
 }
 
-button {
-    color: #003398;
+.btn {
+    background-color: #003398;
+    border: 1px solid #003398;
 }
 
 .gradient {
