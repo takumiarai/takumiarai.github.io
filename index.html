@@ -10,6 +10,10 @@
     
     <link href="./style.css" rel="stylesheet">
 
+    <!-- Fontawesome Free -->
+    <script src="https://kit.fontawesome.com/fe89474e45.js" crossorigin="anonymous"></script>
+
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
@@ -19,42 +23,103 @@
   </head>
   <body>
     <div class="container">
-        <div class="row">
-            <nav class="navbar navbar-light bg-light mt-2">
-                <div class="container-fluid px-0">
-                  <a class="navbar-brand" href="#"><h3 class="gradient">Takumi Arai</h4></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./portfolio/index.html">Portfolio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./contact/index.html">Contact</a>
-                      </li>
-                  </div>
-                </div>
-              </nav>
-        </div> 
+      <div class="cover mt-5">
+        <div class="position-relative text-dark bg-light my-3 mx-auto px-5 pt-5 pb-5 rounded-3 shadow-lg" style="min-width: 20em; max-width: 46em;">
+          <h2 class="gradient d-flex mb-3">Hello, my name is Takumi.</h2>
+          <p class="mb-1"><strong>UX Designer and Developer</strong></p>
+          <p class="">A strong team member eager to learn and innovate on an interdisciplinary team. Experienced with building design systems and frontend components. Here to make an impact.</p>
+        </div>
+      </div>
 
-        <div class="row mt-5">
-          <div class="cover">
-            <div class="position-relative text-dark bg-light mt-5 mx-auto px-5 pt-5 pb-5 rounded-3 shadow-lg" style="min-width: 20em; max-width: 46em">
-              <h2 class="gradient d-flex">Hi, my name is Takumi.</h2>
-              <p class="">I design and develop user-centered interfaces. Experienced in building design systems and creating front-end components.</p>
-              <p class="lead mb-0">
-                <a href="./portfolio/index.html" class="btn btn-md btn-primary">
-                See Portfolio</a>
-              </p>
+      
+      <div class="row">
+        <div class="card bg-light border-0 my-3 mx-auto" style="min-width: 20em; max-width: 46em;">
+          <a href="./portfolio/ad-server.html" class="text-decoration-none py-4">
+            <div class="row g-0">
+              <div class="col-md-5 px-3">
+                <img src="./images/ad-server.png" class="rounded-3" alt="Graphic for Ad Server App">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title gradient">iFixit Ad Server</h5>
+                  <p class="card-text mb-0 text-muted small">Fall 2020</p>
+                  <p class="card-text mb-0">Designed and developed a React app for the iFixit marketing team to manage ad campaigns.</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card bg-light border-0 my-3 mx-auto" style="min-width: 20em; max-width: 46em;">
+          <a href="./portfolio/roo-design-system.html" class="text-decoration-none py-4">
+            <div class="row g-0">
+              <div class="col-md-5 px-3">
+                <img src="./images/color-and-type.png" class="rounded-3" alt="Graphic for Roopairs color and font redesign">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title gradient">Roopairs Design System</h5>
+                  <p class="card-text mb-0 text-muted small">Fall 2020 - Winter 2021</p>
+                  <p class="card-text mb-0">Designed and implemented a design system for Roopairs to meet accessibility standards and improve usability.</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card bg-light border-0 my-3 mx-auto" style="min-width: 20em; max-width: 46em;">
+          <a href="./portfolio/tractor-diagnostic-app.html" class="text-decoration-none py-4">
+            <div class="row g-0">
+              <div class="col-md-5 px-3">
+                <img src="./images/tractor-diagnostic.png" class="rounded-3" alt="Graphic for Tractor Diagnostic App">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title gradient">Tractor Diagnostic</h5>
+                  <p class="card-text mb-0 text-muted small">Winter 2021</p>
+                  <p class="card-text mb-0">Designed and developed a React Native app for tractor repair technicians to quickly diagnose their tractors.</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="card bg-light border-0 my-3 mb-5 mx-auto" style="min-width: 20em; max-width: 46em;">
+          <a href="./portfolio/freestyle.html" class="text-decoration-none py-4">
+            <div class="row g-0">
+              <div class="col-md-5 px-3">
+                <img src="./images/freestyle.png" class="rounded-3" alt="Graphic for Freestyle App">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title gradient">Freestyle</h5>
+                  <p class="card-text mb-0 text-muted small">Winter 2021</p>
+                  <p class="card-text mb-0">Designed a mobile app for baby boomers to explore new hobbies for their health and wellbeing.</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="cover">
+          <div class="card rounded-3 text-left shadow-md text-dark bg-light px-2 py-3 mx-auto mt-3 mb-5 shadow-lg" style="min-width: 20em; max-width: 23em;">
+            <div class="card-body border-bottom">
+              <h5 class="card-title fw-bold">Takumi Arai</h5>
+              <p class="card-text text-decoration-none">UX Designer and Developer</p>
+            </div>
+            <div class="card-body text-left">
+              <p class="card-text"><a href="https://www.linkedin.com/in/takumiarai" target="_blank" class="gradient-400"><i class="fab fa-linkedin mx-2"></i>Linkedin Profile</a></p>
+              <p class="card-text"><i class="fas fa-phone-alt mx-2"></i>(424) 212-1718</p>
+              <p class="card-text"><i class="fas fa-paper-plane mx-2"></i>takumiarai6@gmail.com</p>
+              <p class="card-text"><a href="https://taku-media.myportfolio.com/photography" target="_blank" class="gradient-400"><i class="fas fa-camera-retro mx-2"></i>Portrait Photography</a></p>
+              <p class="card-text"><a href="https://www.instagram.com/tiaraiphotography" target="_blank" class="gradient-400"><i class="fab fa-instagram mx-2"></i>Urban Photography (Instagram)</a></p>
             </div>
           </div>
         </div>
-        
+      </div>
+
     </div>
 
 

@@ -16,31 +16,14 @@
   </head>
   <body>
     <div class="container">
-        <div class="row">
+        <div class="row" style="min-width: 20em; max-width: 46em;">
             <nav class="navbar navbar-light bg-light my-2">
-                <div class="container-fluid px-0">
-                  <a class="navbar-brand" href="../index.html"><h3 class="gradient">Takumi Arai</h4></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../portfolio/index.html">Portfolio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../contact/index.html">Contact</a>
-                      </li>
-                  </div>
-                </div>
-              </nav>
+              <a class="navbar-brand" href="../index.html"><h3 class="gradient">Takumi Arai</h4></a>
+            </nav>
         </div> 
 
         <div class="row">
-          <div class="card bg-light border-0 px-4 py-3 pb-4 mb-4 mx-auto" style="max-width: 720px;">
+          <div class="card bg-light border-0 px-4 py-3 pb-4 mb-4 mx-auto" style="min-width: 20em; max-width: 46em;">
             <div class="card-body px-0">
               <h2 class="card-title fw-bold gradient">Roopairs Design System</h2>
               <p class="card-text mb-0 text-muted">Fall 2020–Winter 2021 // Roopairs Product Design</p>
@@ -74,8 +57,8 @@
 
             <h4 class="my-2"><strong>Requirements</strong></h4>
             <p class="my-2">To accomplish these goals, I had to better understand what a design system should look like and what it should accomplish. Along with several Medium.com articles, Mailchimp and ServiceTitan's design systems were the most helpful resources.</p>
-            <p class="my-2">This is what I learned:</p>
-            []'''''''''''''''''''''''''''''''''l,
+            <p class="my-2">Key points learned:</p>
+            <ul>
               <li>A design system defines the design pattern for users to understand how to use the app.</li>
               <li>A design system defines the product brand.</li>
               <li>A design system is used by both developers and designers.</li>
@@ -102,16 +85,23 @@
               <li>The high x-height provides better legibility at smaller sizes.</li>
               <li>Its 600-weight provides good contrast, while not being overwhelmingly thick.</li>
             </ul>
-            <p class="my-2">Yay! We then prototyped several screens to check for readability. I also used a Figma plugin to measure the color contrast as we developed the new screens.</p>
+            <p class="my-2">Cool! We then prototyped several screens to check for readability. I also used a Figma plugin to measure the color contrast as we developed the new screens.</p>
             <img src="../images/roo-new-ui.png" class="img-fluid rounded-3" alt="Screenshots of the new UI.">
             <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>New screens with improved contrast levels.</small></p>
 
 
             <h4 class="my-2"><strong>The Design System</strong></h4>
             <p class="my-2">After the new color palette and type scale were approved, I started the design system on Figma. It includes basic information like hex and hsl values, type scales, and usages. I prototyped a few screens as examples to show how our interface will look with the new color and type system.</p>
+            
             <h4 class="my-2"><strong>Challenges</strong></h4>
-            <p class="my-2">As it is with any team project, communication and decision making was a challenge. I realized that the main problem we had with making design decisions was that people did not have the same baseline of knowledge in design. I made a request to start a new slack channel for the team to link any UX research articles we found useful. This made it easier for us to explain and agree on design decisions, backed by shared technical knowledge.</p>
-            <p class="my-2">It was also a challenge to conduct this project with limited technical knowledge. Since I am not a color expert, I relied on online resources to generate a color palette while making sure that it passes color contrast standards. Although I gave my best effort in creating an effective color palette, I'm sure that some adjustments will have to be made before the app is officially deployed. Regardless, I think this was a pretty solid starting point for our new design system.</p>
+
+            <p class="mt-2 mb-0 fw-bold">Design Rationales</p>
+            <p class="mt-0 mb-2">Since I was the only member in this company with a design background, I had to carefully make sure that my design rationales made sense to non-designers. I figured that I just had to put people at the same baseline of technical knowledge in design, in order for the team to understand the design rationales. To make things easier, I requested my CTO to start a Slack channel for us to link any articles about UI/UX. I used this channel throughout the project to link all of the articles that taught me about the best design practices with color, typography, and design systems.</p>
+
+            <p class="mt-2 mb-0 fw-bold">Mentorship</p>
+            <p class="mt-0 mb-2">This project probably could have been done faster and better if I had a mentor experienced in doing this kind of task. Instead, I spent time researching online about best practices and making sure that I know enough before I start building anything. Although this was time-consuming, the process helped strengthen my research and self-learning skills, which will be useful at all times throughout life.</p>
+
+            <p class="my-2">As for typography, we were quick with agreeing on Rubik since it was also brand font. However, after implementation, we found that this font actually does not perform well on-screen with its rounded terminals. We might have to choose a cleaner serif font.</p>
             <h4 class="my-2"><strong>Looking Forward</strong></h4>
             <p class="my-2">To continue with the design system, I still need to prototype the rest of the app with the new color and type system. Then, I can officially document the usages for each color and type, and also include a documentation of do's and do-not's. So far I've set up a system for shadows and spacing, and started developing some of the new screens using Figma's components, variants, and auto-layout. Through this project I learned a lot about the importance of communication through documentation, learned more about color and typography on the web, and got better at fully utilizing Figma features. I hope that the work I did will continue to live and support the success of this startup.</p>
 
@@ -120,7 +110,7 @@
 
         <div class="row">
           <div class="card border-0 my-5 mx-auto px-0 py-0" style="max-width: 16em;">
-            <a class="btn btn-secondary btn-md" href="./index.html" role="button">Back To Portfolio</a>
+            <a class="btn btn-secondary btn-md" href="javascript:history.back()" role="button">Go Back</a>
         </div>
     </div>
 

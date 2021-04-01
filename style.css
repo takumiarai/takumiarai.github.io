@@ -10,7 +10,7 @@ body {
 }
 
 p {
-    font-size: 1.125rem;
+    font-size: 1rem;
 }
 
 li {
@@ -31,10 +31,35 @@ li {
     -webkit-text-fill-color: transparent;
 }
 
+.gradient-400 {
+    background: -webkit-linear-gradient(right,#30CFD0 0%, #4d00aa 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .blue {
     background: #003398;
+    font-weight: 600;
 }
 
 h4 {
     font-weight: 600;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card:hover,
+.card:focus {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #212121;
 }
