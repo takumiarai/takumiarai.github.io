@@ -1,7 +1,7 @@
 body {
     color: #212121;
     font-family: "Lato", sans-serif;
-    background: #3e4145;
+    background: #424242;
     background-image: url(../images/torrance-beach-at-night.png);
     background-size: cover;
     background-repeat: none;
@@ -14,12 +14,6 @@ body {
     background-color: hsla(0,0%,100%,0.8) !important;
     transition-property: background-color;
     transition-duration: 175ms;
-}
-
-@media screen and (max-width: 499px) {
-    .card { 
-        background-color: hsla(0,0%,100%,0.75) !important;
-    }
 }
 
 .navbar {
