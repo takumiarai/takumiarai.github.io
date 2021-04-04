@@ -2,11 +2,18 @@ body {
     color: #212121;
     font-family: "Lato", sans-serif;
     background: #E0E0E0;
+    background-image: url(../images/torrance-beach-at-night.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .navbar {
     width: 100%;
     background: none !important;
+}
+
+.bg-transparent {
+    background-color: hsla(0,0%,100%,0.75) !important;
 }
 
 li {

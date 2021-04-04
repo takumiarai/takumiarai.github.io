@@ -1,7 +1,11 @@
 body {
     color: #212121;
     font-family: "Lato", sans-serif;
-    background: #616161;
+    background: #E0E0E0;
+}
+
+.navbar-nav {
+    font-size: 1.125rem;
 }
 
 .card {
@@ -20,12 +24,11 @@ img {
 }
 
 p {
-    font-size: 1.125rem;
     line-height: 1.6;
 }
 
-li {
-    font-size: 1.125rem;
+.bg-transparent {
+    background-color: hsla(0,0%,100%,0.55) !important;
 }
 
 .gradient {

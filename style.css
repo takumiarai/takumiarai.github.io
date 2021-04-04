@@ -2,6 +2,9 @@ body {
     color: #212121;
     font-family: "Lato", sans-serif;
     background: #E0E0E0;
+    background-image: url(./images/torrance-beach-at-night.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .navbar {
@@ -32,6 +35,20 @@ button {
 
 .blue {
     background: #003398;
+}
+.text-blue {
+    color: #003398;
+}
+.bg-transparent {
+    background-color: hsla(0,0%,100%,0.65) !important;
+    transition-property: background-color;
+    transition-duration: 175ms;
+}
+
+.bg-transparent:hover,
+.bg-transparent:hover {
+    box-shadow: 0px 1px 8px hsla(0,0%,0%, 0.4);
+    background-color: hsla(0,0%,100%,0.75) !important;
 }
 
 h4 {
