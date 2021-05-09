@@ -4,7 +4,6 @@ body {
     background: #424242;
     background-image: url(../images/torrance-beach-at-night.png);
     background-size: cover;
-    background-repeat: none;
     background-attachment: fixed;
 }
 

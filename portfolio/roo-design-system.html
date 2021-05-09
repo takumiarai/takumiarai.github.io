@@ -51,70 +51,71 @@
             <p class="my-2"><strong>Team:</strong> Myself</p>
 
             <h4 class="my-2"><strong>Overview</strong></h4>
-            <p class="my-2">I designed and implemented a color and type system for Roopairs to meet accessibility standards and improve usability. I was responsible for running the entire project, including research, planning, design, and implementation.</p>
+            <p class="my-2">I designed and implemented a color system to improve the usability of an app at a startup company. As their product design intern, I brought the project from research, design, to implementation.</p>
 
-            <h4 class="my-2"><strong>The Problem</strong></h4>
+            <h4 class="my-2"><strong>The User Problem</strong></h4>
 
-            <p class="my-2">Users were experiencing readability issues with the app. They struggled to see the interface under outdoor glare and had difficulty reading the smaller fonts.</p>
-            <p class="my-2">Through research I learned that our problem was mainly due to color contrast levels and we ultimately had to establish a color and type system.</p>
+            <p class="my-2">Users struggled to see the interface under outdoor glare.</p>
             <img src="../images/roo-old-ui.png" class="img-fluid rounded-3" alt="A screenshot of Roopairs old UI">
-            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Old UI with low contrast levels.</small></p>           
-            <p class="my-2">We could have simply fixed the problem by simply darkening our UI elements, but that would only be a short-term solution that does not address the root of this problem.</p>
-            <p class="my-2">The real problem was that the company did not have a proper workflow from design into development. Contrast issues should be mitigated at the creation of the design system, where the design language should be established for usability and consistency.</p>
+            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>The Original UI</small></p>           
+            <p class="my-2">Through research I learned about W3C’s Web Content Accessibility Guideline and its color contrast standards. I measured the color contrast of our UI using a Figma plugin, to find that most of our UI elements did not pass the AA standards.</p>
+            <p class="my-2">The original color palette was handpicked by an old intern’s aesthetic sense, without consideration of contrast ratios or usability. The result was a pastel color palette that looked good on its own, but incompatible for use on UI. </p>
 
             <h4 class="my-2"><strong>The Solution</strong></h4>
 
-            <p class="my-2">We had to establish a design system to mitigate all future usability issues.</p>
-
-            <p class="my-2">For the scope of this project, we set two specific goals:</p>
-            <ul class="mx-3">
-              <li>Design a color system that resolves contrast issues.</li>
-              <li>Design a type system that improves readability.</li>
-            </ul>
+            <p class="my-2">To solve this issue, we need a design system that establishes a design language that makes the app usable and accessible. To work towards establishing a design system and resolving usability issues, we decided that we should first build a well-balanced, accessible color system.</p>
+            <p class="my-2">We set a goal to build a well-balanced, accessible color system to introduce clarity to the UI and improve the usability and accessibility of the app.</p>
 
             <h4 class="my-2"><strong>Requirements</strong></h4>
-            <p class="my-2">To accomplish these goals, I had to better understand what a design system should look like and what it should accomplish. Along with several Medium.com articles, Mailchimp and ServiceTitan's design systems were the most helpful resources.</p>
-            <p class="my-2">This is what I learned:</p>
+            <p class="my-2">Before designing and documenting the color system, I had to first understand what makes a color system effective. Who is it for? What should it include? How should it be documented? I searched across the internet to elevate my knowledge in this field.</p>
+            <p class="my-2">On medium.com I learned from UX designers about best practices in building a color system. I also studied ServiceTitan and MailChimp’s design systems to learn from the artifacts crafted by professional UX teams. I made sure to get a lot of breadth and depth in this research phase so that I have a clear vision with design systems before I try building one myself.</p>
+
+            <p class="my-2">Here are the core features we laid out for our upcoming color system:</p>
             <ul class="mx-2">
-              <li>A design system reflects the brand of the product.</li>
-              <li>A design system defines the design pattern for users to understand how to use the app.</li>
-              <li>A design system defines the product brand.</li>
-              <li>A design system is used by both developers and designers.</li>
-              <li>A design system should carefully document the intent of the design.</li>
-            </ul>
-            <p class="my-2">And here are the requirements I set for the color and type system:</p>
-            <ul class="mx-2">
-              <li>Each color should have a tint and shade.</li>
-              <li>Each color should convey meaning corresponding to color psychology.</li>
-              <li>The 400-weight colors measured against our default background color should pass WCAG standards.</li>
-              <li>The color system should include documentation of do's and do-not's.
-              <li>The type system should be based on a type scale.</li>
+              <li>Include tints and shades specified by “x00” weights.</li>
+              <li>Document meaning and usage of each color.</li>
+              <li>Usages pass WCAG color contrast standards.</li>
+              <li>Include do's and do-not's of color usages.</li>
+              <li>Keep it minimal and leave room for future designers to carefully scale up.</li>
             </ul>
 
-            <h4 class="my-2"><strong>Color</strong></h4>
-            <p class="my-2">Initally, I used Material design's color tool to automatically generate an accessible set of colors. This color palette unfortunately did not get approved by my superiors because it did not include orange and yellow on the palette. Orange and yellow show poorly on screens, so I suggested a design that would not require orange and yellow. However, it did not get approved because they wanted to avoid making major changes to our existing color language. Then, to get yellow and orange, we used paletton.com with a triad and tetrad color combo. For our gray colors, we used Material design's color set.</p>
+            <h4 class="my-2"><strong>Designing the Color Palette</strong></h4>
+            <p class="my-2">First, I used Material design's color tool to generate an accessible set of balanced colors.  Since yellow and orange do not produce enough contrast, they were impossible to generate on the accessible color palette. We should come up with an accessible interface without those colors, so I created a few prototypes that do not require us to use yellow or orange.</p>
+            <img src="../images/colors-prototype.png" class="img-fluid rounded-3" alt="Screenshots of prototypes without using yellow and orange.">
+            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Screen prototypes without yellor and orange.</small></p>
+
+            <p class="my-2">I tried pitching this new color language but I was not able to get it approved. My supervisors were firm about keeping yellow and orange on the UI to avoid major changes that might frustrate existing users. They have a point, but this release would be the best time to make any major changes to improve usability. However, I was not able to push the idea any futher, so we settled with using the same color language as before.</p>
+            <p class="my-2">To achieve a yellow and orange color that fits our palette, I used triad and tetrad color combinations. They do not produce enough contrast, so we have to make sure not to use them against light backgrounds. </p>
+            <p class="my-2">For the gray tones, I referred to Material design's color system, approved and documented on our new design system on Figma.</p>
+
             <img src="../images/final-palette.png" class="img-fluid rounded-3" alt="Our final, approved color palette.">
-            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>The approved color palette using paletton.com</small></p>
+            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>The approved color palette</small></p>
 
-            <h4 class="my-2"><strong>Typography</strong></h4>
-            <p class="my-2">Rubik has always been the typeface of our logomark, but it wasn't used on our app interface. I looked more into Rubik and found some advantages:</p>
-            <ul class="mx-2">
-              <li>The monospace numerical characters give an analog aesthetic to the dollar values.</li>
-              <li>The high x-height provides better legibility at smaller sizes.</li>
-              <li>Its 600-weight provides good contrast, while not being overwhelmingly thick.</li>
-            </ul>
-            <p class="my-2">Yay! We then prototyped several screens to check for readability. I also used a Figma plugin to measure the color contrast as we developed the new screens.</p>
+            <p class="my-2">I then prototyped several screens with the new styles to check for readability. I checked the contrast levels for each element to verify that they pass WCAG standards.</p>
             <img src="../images/roo-new-ui.png" class="img-fluid rounded-3" alt="Screenshots of the new UI.">
-            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>New screens with improved contrast levels.</small></p>
+            <p class="mt-1 mx-auto px-3 text-center text-muted fst-italic t"><small>Screens with new styles</small></p>
 
+            <p class="my-2">With these new styles finalized, it was time to apply them to our platform.</p>
 
-            <h4 class="my-2"><strong>The Design System</strong></h4>
-            <p class="my-2">After the new color palette and type scale were approved, I started the design system on Figma. It includes basic information like hex and hsl values, type scales, and usages. I prototyped a few screens as examples to show how our interface will look with the new color and type system.</p>
-            <h4 class="my-2"><strong>Challenges</strong></h4>
-            <p class="my-2">As it is with any team project, communication and decision making was a challenge. I realized that the main problem we had with making design decisions was that people did not have the same baseline of knowledge in design. I made a request to start a new slack channel for the team to link any UX research articles we found useful. This made it easier for us to explain and agree on design decisions, backed by shared technical knowledge.</p>
-            <p class="my-2">It was also a challenge to conduct this project with limited technical knowledge. Since I am not a color expert, I relied on online resources to generate a color palette while making sure that it passes color contrast standards. Although I gave my best effort in creating an effective color palette, I'm sure that some adjustments will have to be made before the app is officially deployed. Regardless, I think this was a pretty solid starting point for our new design system.</p>
-            <h4 class="my-2"><strong>Looking Forward</strong></h4>
-            <p class="my-2">To continue with the design system, I still need to prototype the rest of the app with the new color and type system. Then, I can officially document the usages for each color and type, and also include a documentation of do's and do-not's. So far I've set up a system for shadows and spacing, and started developing some of the new screens using Figma's components, variants, and auto-layout. Through this project I learned a lot about the importance of communication through documentation, learned more about color and typography on the web, and got better at fully utilizing Figma features. I hope that the work I did will continue to live and support the success of this startup.</p>
+            <h4 class="my-2"><strong>Implementation</strong></h4>
+            <p class="my-2">I worked with the CTO to implement the new colors into the platform and centralize the CSS code along the way. He helped me lay out a game plan to restructure the style code. Some steps felt redundant, but they were necessary steps to keep a clean set of commits. </p>
+
+            <p class="my-2">Here are the steps we took:</p>
+            <ul class="mx-2">
+              <li>Step 1 - Go through all of the scss files and consolidate unassigned styling properties into scss variables</li>
+              <li>Step 2 - Convert scss variables to vanilla css</li>
+              <li>Step 3 - Combine similar colors into one variable. Rename them according to the new color system. Keep the old style values.</li>
+              <li>Step 4 - Swap the old values with new style values.</li>
+              <li>Step 5 - Inspect the app with new colors and revise colors as needed.</li>
+            </ul>
+            
+            <p class="my-2">Best practice would have been to build a complete design system first, but we went straight into implementation so that we can fix the usability issue as soon as possible.</p>
+            <p class="my-2">Step 1-4 went smoothly but Step 5 required a great amount of focus to inspect everything down to the details, paying attention to the colors of 1px lines and opaque shadows. In that step I also noticed all of the irregular spacing and interaction styles. We added in a sprint to bring consistency to the spacing and interactions, to release an even cleaner UI at the end of this project.</p>
+            <p class="my-2">We spent three extra weeks in Step 5 fixing up other styles, but the resulting UI made it 100% worth the extra time spent. We were still able to get everything done by the end of the quarter.</p>
+            <p class="my-2">As a result of my work, our styles are now centralized into CSS variables. The intuitive variable names and consistent styles make it possible for us to have a much better design and development process. Now, we can easily tweak existing designs and easily develop new features that align with our design language.</p>
+
+            <h4 class="my-2"><strong>Conclusion</strong></h4>
+            <p class="my-2">By conducting thorough research on best UX design practices, I developed a complete plan with consideration of scaling up in the future. Our goal was to simply fix the UI’s readability issue, but I also helped improve their overall workflow. The new design system makes it easier to develop better UI, and the reorganized style code makes it easier to maintain a simpler front-end codebase.</p>
 
           </div>
         </div>
