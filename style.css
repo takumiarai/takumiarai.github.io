@@ -26,9 +26,8 @@ button {
 
 .gradient {
     font-weight: 600;
-    border-width: 2px;
     background: -webkit-linear-gradient(right,#30CFD0 0%, #4d00aa 100%);
-    background-clip: white;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
