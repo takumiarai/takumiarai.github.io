@@ -24,6 +24,11 @@ button {
     color: #003398;
 }
 
+.fw-600 {
+    font-weight: 600;
+    color: #eeeeee;
+}
+
 .gradient {
     font-weight: 600;
     background: -webkit-linear-gradient(right,#30CFD0 0%, #4d00aa 100%);

@@ -55,3 +55,8 @@ li {
 h4 {
     font-weight: 600;
 }
+
+.fw-600 {
+    font-weight: 600;
+    color: #eeeeee;
+}
